@@ -8,16 +8,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
-    ACheckbox: typeof import('ant-design-vue/es')['Checkbox']
     AInput: typeof import('ant-design-vue/es')['Input']
     APageHeader: typeof import('ant-design-vue/es')['PageHeader']
     AResult: typeof import('ant-design-vue/es')['Result']
-    ASpace: typeof import('ant-design-vue/es')['Space']
     ASpin: typeof import('ant-design-vue/es')['Spin']
     ATable: typeof import('ant-design-vue/es')['Table']
     ATag: typeof import('ant-design-vue/es')['Tag']
     ATooltip: typeof import('ant-design-vue/es')['Tooltip']
-    Header: typeof import('./src/components/Header.vue')['default']
     HeaderComponent: typeof import('./src/components/HeaderComponent.vue')['default']
   }
 }
