@@ -13,3 +13,9 @@ $ npm install
 ```bash
 $ npm run start
 ```
+
+#### backend - NestJs
+
+#### frontend - Vue
+
+#### Для проверки работы чтобы сервер был доступен, установлен Долгосрочный токен
